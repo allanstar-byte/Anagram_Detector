@@ -13,6 +13,16 @@ class Anagram
         @word = word
     end
     def match
+        # for i in match do 
+        #     for i in word do |k|
+        #         if @match.length == @word.length
+        #             p "True"
+        #         else
+        #             p "False"
+        #         end  
+        #     end
+            
+        # end
         if @match.length == @word.length
             p "True"
         else
